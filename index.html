@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <main>
+        <div>
+            <label for="incio">Início:</label>
+            <input type="number" name="inicio" class="inicio">
+            <label for="fim">Fim:</label>
+            <input type="number" name="fim" class="fim">
+            <label for="intervalo">Intervalo:</label>
+            <input type="number" name="intervalo" class="intervalo">
+        </div>
+
+        <div>
+            <input type="button" value="Contar" class="contar" onclick="contar()">
+        </div>
+
+        <div>
+            <p class="res">Preparando a contagem...</p>
+        </div>
+    </main>
+
+    <footer>
+        <i data-feather="github">GitHub</i>
+        <a href="https://github.com/mariliadruzian" target="_blank">github.com/mariliadruzian</a>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>feather.replace()</script>
+</body>
+
+</html>
